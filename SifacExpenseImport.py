@@ -51,7 +51,7 @@ class SifacExpenseImport(ImportMixin, LabManagerPlugin):
                 "Fournisseur": ["Fournisseur/Division fourn."],
                 "Désignation": [],
                 "Valeur nette": ["Valeur nette de cde", "Val. nette"],
-                "Elément d'OTP": ["      Elt d'OTP"],
+                "Elément d'OTP": ["Elt d'OTP", "      Elt d'OTP"],
                 "Date du document": ["Date doc."],
             },
         },
