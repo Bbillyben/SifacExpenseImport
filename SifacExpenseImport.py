@@ -12,7 +12,10 @@ class SifacExpenseImport(ImportMixin, LabManagerPlugin):
     TITLE = _('Sifac Import')
     AUTHOR = _('LabsManager contributors/Bbillyben')
     DESCRIPTION = _('A plugin to import expense from sifac')
-    VERSION = '0.0.0'
+    VERSION = '1.0.0'
+    WEBSITE = "https://github.com/Bbillyben/SifacExpenseImport/"
+    LICENSE = "AGPLv3"
+    PUBLISH_DATE = "2026-10-23"
     
     OUTPUT_HEADERS = (
             "Expense Id",
